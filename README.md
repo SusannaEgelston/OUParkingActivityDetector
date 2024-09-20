@@ -2,6 +2,8 @@
 
 ## Project Overview
 Our product is a website that displays the busyness of OU parking lots based on user reports from students already on campus. It is accessible from personal devices like your cell phone, computer, or tablet.
+### Project Design
+In designing our website, we used Figma to help us visualize everything before beginning to code. Here is a link to our Figma design: https://www.figma.com/design/7xzVwWPrawDq2XzkYjIFGo/OU-Parking?node-id=0-1&node-type=canvas&t=NbpHLHiotIxh6iP0-0.
 
 ## Installation Instructions
 The user will need a browser that suppports html, css, and JavaScript, which pretty much all modern browsers have. Also they will need an internet connection to connect to the website's server. 
