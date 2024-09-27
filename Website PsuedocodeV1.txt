@@ -1,0 +1,58 @@
+﻿##2D List named Building: Floor:Space
+
+##Each Space has a boolean value named state.
+
+##Needs to be sent updates from user reports.
+
+Class Building { 
+        buildingFloors;
+floorCount;
+        Building(int floors, int spacesPerFloor) {
+buildingFloors = Floors(spacesPerFloor) * floors
+floorCount = floors;
+}
+getFloorCount() {
+return floorCount;
+}
+}
+
+Class Floor {
+floorSpaces;
+spaceAmount;
+Floor(int spaceCount) { 
+Spaces = [Space()] * spaceCount
+spaceAmount = spaceCount
+}
+getSpace(int idx) {
+        return floorSpaces[idx]
+}
+getSpaceState(int idx){
+getSpace(idx).getState()
+}
+setSpaceState(int idx, int state) {
+        getSpace(idx).setState(state)
+}
+getSpaceCount() {
+        Return spaceAmount;
+}
+adjustSpaceCount(int spaceCount) {
+        ##In case of any floors with a different number of spaces than other floors.
+        Spaces = [Space()] * spaceCount
+        spaceAmount = spaceCount
+}
+}
+
+
+Class Space{
+boolean available;
+Space() {
+available = true;
+        }
+getState() {
+return available;
+}
+setState(int state) { 
+##State can only be 0 or 1, where 0 is when a space is occupied and 1 is when a space is available.
+available = (boolean)state;
+}
+}
