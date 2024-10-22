@@ -4,6 +4,8 @@
 
 ##Needs to be sent updates from user reports.
 
+##TODO: Track Trend stuff
+
 Class Building { 
         buildingFloors;
 floorCount;
